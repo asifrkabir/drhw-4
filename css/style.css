@@ -83,6 +83,11 @@ nav ul li a{
     font-weight: bold;
     letter-spacing: 1px;
     position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li:hover a{
+    color: rgb(252, 138, 62);
 }
 
 nav ul li a::after{
@@ -202,11 +207,11 @@ nav ul li a:hover::after{
     transition: all 0.5s ease-in-out;
 }
 
-.projects .project_1:hover, .project_2:hover, .project_3:hover{
+/* .projects .project_1:hover, .project_2:hover, .project_3:hover{
     transform: translateY(-10px);
     box-shadow: 0 10px 10px rgba(211, 211, 211, 0.658);
     cursor: pointer;
-}
+} */
 
 .projects img{
     margin-bottom: 20px;
